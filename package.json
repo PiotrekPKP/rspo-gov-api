@@ -1,6 +1,6 @@
 {
   "name": "rspo-gov-api",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "dist/index.js",
   "type": "module",
@@ -11,7 +11,7 @@
   "scripts": {
     "run": "ts-node ./src/index.ts",
     "build": "tsc",
-    "pub": "npm build && npm publish"
+    "pub": "npm run build && npm publish"
   },
   "keywords": [
     "rspo",

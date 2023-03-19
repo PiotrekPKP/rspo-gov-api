@@ -149,7 +149,7 @@ export const getManySchoolsSchema = z.object({
         })
         .nullable()
         .optional(),
-      students: z.number().nullable().optional(),
+      studentsNr: z.number(),
     })
   ),
 });
