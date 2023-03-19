@@ -137,12 +137,12 @@ export const getManySchoolsSchema = z.object({
       telephone: z.string(),
       website: z.string().nullable().optional(),
       email: z.string(),
-      hqAdressZipCode: z.string().nullable().optional(),
-      hqAdressCity: z.string().nullable().optional(),
-      hqAdressBuildingNr: z.string().nullable().optional(),
-      hqAdressPremisesNr: z.string().nullable().optional(),
-      hqAdressStreet: z.string().nullable().optional(),
-      hqAdressLocality: z
+      hqAddressZipCode: z.string(),
+      hqAddressCity: z.string(),
+      hqAddressBuildingNr: z.string(),
+      hqAddressPremisesNr: z.string(),
+      hqAddressStreet: z.string(),
+      hqAddressLocality: z
         .object({
           id: z.number(),
           name: z.string(),
