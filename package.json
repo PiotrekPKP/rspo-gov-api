@@ -1,8 +1,8 @@
 {
   "name": "rspo-gov-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "type": "module",
   "repository": {
     "type": "git",
