@@ -17,7 +17,7 @@ const schools = await getManySchools(OPTIONS);
 ```ts
 import { getOneSchool } from "rspo-gov-api";
 
-const school = await getOneSchool(SCHOOL_ID);
+const school = await getOneSchool(SCHOOL_RSPO);
 ```
 
 ## Opcje
